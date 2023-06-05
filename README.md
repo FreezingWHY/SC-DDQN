@@ -23,6 +23,6 @@ We design the network structure of SC-DDQN. FC stands for fully connected networ
 
 The state in the deep reinforcement learning algorithm includes all the variable parameters in the optimization problem P2, as well as the currently selected block identification. The whole structure is an MDP structure. The action is set to the quality level of one of the unselected slices. The reward is set as the QoE increment before and after the action is executed, and we base a large negative reward on actions that do not satisfy the constraint as a penalty.
 
-#Statement
+# Statement
 If you have used this code, please refer to it in your research：
 J. Li et al., "Towards Optimal Real-time Volumetric Video Streaming: A Rolling Optimization and Deep Reinforcement Learning Based Approach," in IEEE Transactions on Circuits and Systems for Video Technology, doi: 10.1109/TCSVT.2023.3277893.
